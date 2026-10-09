@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Portfólio</title>
+
+    <link rel="stylesheet" href="laddingstyle.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <nav>
+            <h2>Meu Portfólio</h2>
+
+            <div class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre mim</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+
+                <button id="tema">☀️</button>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- INÍCIO -->
+    <section id="inicio" class="inicio">
+
+        <div class="texto-inicio">
+
+            <p class="destaque">OLÁ, EU SOU</p>
+
+            <h1>SEU NOME</h1>
+
+            <h2>Estudante de Tecnologia</h2>
+
+            <p>
+                Sou estudante da área de tecnologia, interessado em
+                desenvolvimento web e manutenção de computadores.
+            </p>
+
+            <a href="#sobre" class="botao">Conheça meu trabalho</a>
+
+        </div>
+
+        <div class="foto">
+            <img src="WhatsApp Image 2026-10-09 at 18.21.26.jpeg" alt="Minha foto">
+        </div>
+
+    </section>
+
+
+    <!-- SOBRE -->
+    <section id="sobre" class="secao">
+
+        <h2>Sobre Mim</h2>
+
+        <div class="sobre">
+
+            <div>
+                <h3>Quem sou eu?</h3>
+
+                <p>
+                    Sou estudante e tenho interesse pela área de tecnologia.
+                    Gosto de aprender sobre programação, desenvolvimento de
+                    sites e computadores.
+                </p>
+
+                <p>
+                    Estou sempre buscando melhorar meus conhecimentos e
+                    transformar aquilo que aprendo em projetos práticos.
+                </p>
+            </div>
+
+            <div class="card-info">
+                <h3>Meu objetivo</h3>
+
+                <p>
+                    Continuar desenvolvendo minhas habilidades em tecnologia
+                    e adquirir experiência através de novos projetos.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="secao">
+
+        <h2>Minhas Habilidades</h2>
+
+        <div class="habilidades">
+
+            <div class="habilidade">
+                <span>HTML</span>
+                <div class="barra">
+                    <div class="progresso html"></div>
+                </div>
+            </div>
+
+            <div class="habilidade">
+                <span>CSS</span>
+                <div class="barra">
+                    <div class="progresso css"></div>
+                </div>
+            </div>
+
+            <div class="habilidade">
+                <span>JavaScript</span>
+                <div class="barra">
+                    <div class="progresso javascript"></div>
+                </div>
+            </div>
+
+            <div class="habilidade">
+                <span>Manutenção de Hardware</span>
+                <div class="barra">
+                    <div class="progresso hardware"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="secao">
+
+        <h2>Meus Projetos</h2>
+
+        <div class="projetos">
+
+            <div class="projeto">
+                <h3>🌐 Projeto Web</h3>
+
+                <p>
+                    Desenvolvimento de uma página utilizando HTML e CSS,
+                    aplicando estrutura, estilização e responsividade.
+                </p>
+
+                <span>HTML • CSS</span>
+            </div>
+
+
+            <div class="projeto">
+                <h3>⚙️ Projeto JavaScript</h3>
+
+                <p>
+                    Projeto utilizando JavaScript para criar interações
+                    e funcionalidades dentro de uma página web.
+                </p>
+
+                <span>JavaScript</span>
+            </div>
+
+
+            <div class="projeto">
+                <h3>🖥️ Manutenção de PC</h3>
+
+                <p>
+                    Estudos e práticas relacionados à montagem,
+                    manutenção e identificação de problemas em computadores.
+                </p>
+
+                <span>Hardware</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GITHUB -->
+    <section class="github">
+
+        <h2>Confira meus projetos</h2>
+
+        <p>
+            Veja outros projetos e códigos que desenvolvi.
+        </p>
+
+        <a href="https://github.com/cescoparatella-netizen" target="_blank" class="botao">
+            Meu GitHub
+        </a>
+
+    </section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="secao">
+
+        <h2>Entre em Contato</h2>
+
+        <form id="formulario">
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Seu nome"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Seu e-mail"
+                required
+            >
+
+            <input
+                type="text"
+                id="telefone"
+                placeholder="Telefone"
+                maxlength="15"
+                required
+            >
+
+            <textarea
+                id="mensagem"
+                placeholder="Digite sua mensagem"
+                required
+            ></textarea>
+
+            <button type="submit" class="botao">
+                Enviar mensagem
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            © 2026 - Francesco Paratella | Portifólio
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
